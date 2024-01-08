@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -17,6 +18,8 @@ a{
     background-size: cover;
     text-align: center;
     height: 600px;
+    margin: 0 100px;
+    border-radius: 8px ;
 }
 .banner-overlay{
     background-image:
@@ -26,6 +29,7 @@ a{
     height: 100%;
     background-size: cover;
     color: white;
+    border-radius: 8px ;
 }
 .banner-first-head{
     font-size: 20px;
@@ -52,7 +56,7 @@ a{
     text-align: center;
     margin: 0 auto;
     padding: 70px 0;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Inter', sans-serif; 
 }
 .discount-pic{
     height: 300px;
@@ -80,6 +84,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin: 0 100px;
 }
 .midnight-overlay{
     background-image:
@@ -131,13 +136,15 @@ a{
     padding: 60px 0;
     text-align: center; 
     font-family: 'Merriweather', serif;
+    margin: 50px 100px 0px 100px;
+
 }
 .place h1{
     color: red;
 }
 .place span{
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif; 
 }
 .btn-two{
     padding: 10px 15px;
@@ -154,11 +161,11 @@ a{
 .main-offer{
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 50px 100px;
 }
 .offer{
     width: 33.33%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif; 
 }
 .offer-pic{
     height: 250px;
@@ -193,3 +200,218 @@ a{
     height: 100px;
 }
 /* offer end */
+/* holiday start */
+.holiday{
+    margin: 0 100px;
+}
+.main-holiday{
+    text-align: center;
+    
+}
+.holiday-h6{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: light;
+}
+.holiday-h1{
+    color: red;
+    font-size: 35px;
+    padding: 20px 0;
+    font-family: 'Merriweather', serif;
+}
+.holiday-h1 span{
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+.holiday-p{
+    width: 550px;
+    font-weight: lighter;
+    color: gray;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Inter', sans-serif; 
+    padding-bottom: 30px;
+}
+.main-holiday-bottom-part{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-pic1{
+    width: 70%;
+}
+.holiday-pic2{
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+.holiday-pic3{
+    width: 10%;
+}
+.holiday-pic1 img{
+    width: 50%;
+    height: 485px;
+   
+   
+}
+.holiday-pic2 img{
+    width: 99%;
+    height: 410px;
+}
+.holidays-pic3 img{
+    height: 250px;
+    width: 250px;
+    margin-top: 120px;
+    position: absolute;
+    content: '';
+    left: 50%;
+    z-index: 1; 
+}
+.last-rectangle img{
+    width: 100%;
+    height: 200px;
+}
+.last-rectangle{
+    position: relative;
+}
+.holiday-pic1{
+    position: absolute;
+    content: '';
+    z-index: 1;
+    left: 8%;
+    bottom: -421%;
+}
+/* portfolio start */
+.portfolio{
+    padding: 60px 90px;
+}
+.portfolio-h5{
+    color: red;
+    font-family: 'Inter', sans-serif; 
+    font-size: 15px;
+}
+.portfolio-h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    padding: 15px 0;
+}
+.portfolio-p
+{
+    width: 500px;
+    color: rgb(38, 38, 38);
+    padding-bottom: 50px;
+}
+.img-grid{
+    display: flex;
+    padding: 10px 0;
+}
+.grid1{
+    width: 33%;
+    position: relative;
+}
+.grid1 img{
+    width: 95%;
+    height: 350px;
+}
+.over-img{
+    position: absolute;
+    content: '';
+    height: 80%;
+    width: 80%;
+    top: 30px;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3a0602cf;
+}
+.grid1:hover .over-img{
+    opacity: 1;
+}
+/* newsletter start */
+.newsletter{
+    padding: 100px 0;
+    background-color: rgba(214, 172, 176, 0.688);
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.newsletter-h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.newsletter-p{
+    width: 500px;
+    color: rgb(38, 38, 38);
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+/* footer start */
+.footer{
+    padding: 50px 123px;
+    background-color: rgb(5, 5, 43);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 h5{
+    font-family: 'Inter', sans-serif; 
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 2;
+}
+.footer1 h6{
+    font-family: 'Inter', sans-serif; 
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 2;
+}
+.icon{
+   width: 80;
+    display: flex;
+    background-color: rgb(5, 5, 43);
+   color: white;
+   text-align: center;
+    padding: 0 100px;
+    position: relative;
+}
+.icon::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 120px;
+    height: 1px;
+    width: 82%;
+    background-color: gray;
+}
+.icon::before{
+    position: absolute;
+    content: '';
+    bottom:0;
+    left: 120px;
+    height: 1px;
+    width: 82%;
+    background-color: gray;
+}
+.icon h1{
+    font-size: 30px;
+    padding: 25px 10px;
+   margin-left: 500px;
+}
+.mail{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px 15px;
+}
+.btnn{
+    background-color: rgb(237, 13, 13);
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    padding: 15px 15px;
+    color: white;
+}
+/* footer end */
